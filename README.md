@@ -122,10 +122,10 @@ class GODListener {
       this.counter = 0;
   }
 
-    handleClick() {
-        this.counter += 1;
-        console.log(this.counter);
-    }
+  handleClick() {
+      this.counter += 1;
+      console.log(this.counter);
+  }
 }
 
 const element = document.getElementById('testBtn');
