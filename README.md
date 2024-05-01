@@ -115,25 +115,7 @@ fn();
   undefined, undefined
 </details>
 
-10. What will be printed to the console?
-```js
-var obj = {
-    a: () => {
-        console.log(this.prop);
-    },
-    prop: 1
-};
-
-obj.a();
-var fn = obj.a.bind(obj);
-fn();
-```
-<details>
- <summary>Output</summary>
-  undefined, undefined
-</details>
-
-11. What will be printed to the console if we click three times?
+10. What will be printed to the console if we click three times?
 ```js
 class GODListener {
   constructor() {
@@ -156,7 +138,7 @@ element.addEventListener('click', listener.handleClick);
   NaN, NaN, NaN
 </details>
 
-12. What will be printed to the console?
+11. What will be printed to the console?
 ```js
 var a = {};
 (function b(a) {
