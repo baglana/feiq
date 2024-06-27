@@ -151,3 +151,42 @@ console.log(a);
  <summary>Output</summary>
   { a: 10 }
 </details>
+
+12. What will be printed to the console?
+```js
+console.log(0 || 200);
+console.log(0 ?? 400);
+console.log(0 && 600);
+```
+<details>
+ <summary>Output</summary>
+  200
+  0
+  0
+</details>
+
+12. What is the return type of this function?
+```ts
+async function Fn() {
+    if (await CheckUser()) {
+        return 42;
+    }
+
+    return undefined;
+}
+```
+<details>
+ <summary>Output</summary>
+  Promise<42 | undefined>
+</details>
+
+13. What will be printed to the console?
+```js
+console.log(null == undefined);
+console.log(null === undefined);
+```
+<details>
+ <summary>Output</summary>
+  true
+  false
+</details>
