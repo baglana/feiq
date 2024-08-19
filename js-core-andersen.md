@@ -1,3 +1,5 @@
+https://codeshare.io/yNp7ne
+
 ```js
 let a = {
 	b: 1,
